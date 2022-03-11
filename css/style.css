@@ -1,0 +1,85 @@
+
+
+/**************************\
+    CUSTOM CSS RULES
+\**************************/
+
+
+/******************\
+    GOOGLE FONT
+\******************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    background-image: url('../image/pattern5.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+
+#result {
+    min-height: 30px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: cyan;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px 10px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: left; */
+}
+
+#result p {
+    margin: 0;
+}
+
+
+/*****************************\
+    CSS FOR DYNAMIC HTML
+\*****************************/
+
+
+.card,
+.card-body {
+    background-color: #062333;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: cyan !important;
+    margin-bottom: 15px;
+}
+
+.author {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.publisher {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.publish-year {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.span {
+    color: turquoise;
+    font-weight: normal !important;
+    font-size: 18px;
+}
+
